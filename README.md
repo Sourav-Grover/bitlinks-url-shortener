@@ -8,45 +8,48 @@
 
 A full-stack URL shortening platform built with Next.js, MongoDB, and Tailwind CSS that enables users to generate custom short links with fast redirection and persistent storage.
 
-## Live Demo
+---
 
-🚀 https://your-vercel-link.vercel.app
+## 🚀 Live Demo
+
+**Deployed Application:**
+https://your-vercel-link.vercel.app
 
 ---
 
-## Features
+## ✨ Features
 
 * Generate custom short URLs
 * Instant URL redirection
 * MongoDB-backed persistent storage
-* Responsive and user-friendly interface
-* RESTful API support
-* Custom alias creation
-* Built using Next.js App Router
+* Custom alias support
+* Responsive and modern UI
+* RESTful API integration
+* Built with Next.js App Router
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
 ### Home Page
 
-<img src="./public/screenshots/home-page.png" width="900"/>
+![Home Page](public/screenshots/home-page.png)
 
 ### URL Generation Interface
 
-<img src="./public/screenshots/url-generation.png" width="700"/>
+![URL Generation](public/screenshots/url-generation.png)
 
 ### Successful URL Creation
 
-<img src="./public/screenshots/url-generated-success.png" width="700"/>
+![Generated URL](public/screenshots/url-generated-success.png)
 
 ### MongoDB Database Records
 
-<img src="./public/screenshots/database-records.png" width="900"/>
+![Database Records](public/screenshots/database-records.png)
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 
@@ -63,23 +66,23 @@ A full-stack URL shortening platform built with Next.js, MongoDB, and Tailwind C
 
 * Git
 * GitHub
-* Postman API Testing
+* Postman
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```text
 Client (Next.js Frontend)
           │
           ▼
-     API Routes
+      API Routes
           │
           ▼
    MongoDB Database
           │
           ▼
-URL Storage & Retrieval
+ URL Storage & Lookup
           │
           ▼
    Fast Redirection
@@ -87,7 +90,7 @@ URL Storage & Retrieval
 
 ---
 
-## API Endpoint
+## 🔌 API Endpoint
 
 ### Generate Short URL
 
@@ -115,13 +118,12 @@ POST /api/generate
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```bash
 bitlinks-url-shortener/
 │
 ├── app/
-├── components/
 ├── public/
 │   └── screenshots/
 │       ├── home-page.png
@@ -141,7 +143,7 @@ bitlinks-url-shortener/
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 ### Clone Repository
 
@@ -149,7 +151,7 @@ bitlinks-url-shortener/
 git clone https://github.com/Sourav-Grover/bitlinks-url-shortener.git
 ```
 
-### Navigate to Project
+### Navigate to Project Directory
 
 ```bash
 cd bitlinks-url-shortener
@@ -169,13 +171,13 @@ Create a `.env.local` file:
 MONGODB_URI=your_mongodb_connection_string
 ```
 
-### Start Development Server
+### Run Development Server
 
 ```bash
 npm run dev
 ```
 
-The application will run on:
+Open:
 
 ```text
 http://localhost:3000
@@ -183,7 +185,7 @@ http://localhost:3000
 
 ---
 
-## Future Enhancements
+## 🎯 Future Improvements
 
 * QR Code Generation
 * Click Analytics Dashboard
@@ -192,8 +194,13 @@ http://localhost:3000
 
 ---
 
+## 📜 License
 
-## Author
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
 
 ### Sourav Grover
 
