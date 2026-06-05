@@ -10,13 +10,6 @@ A full-stack URL shortening platform built with Next.js, MongoDB, and Tailwind C
 
 ---
 
-## 🚀 Live Demo
-
-**Deployed Application:**
-https://your-vercel-link.vercel.app
-
----
-
 ## ✨ Features
 
 * Generate custom short URLs
