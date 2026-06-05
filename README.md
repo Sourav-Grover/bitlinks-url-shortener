@@ -29,26 +29,6 @@ https://your-vercel-link.vercel.app
 
 ---
 
-## 📸 Screenshots
-
-### Home Page
-
-![Home Page](public/screenshots/home-page.png)
-
-### URL Generation Interface
-
-![URL Generation](public/screenshots/url-generation.png)
-
-### Successful URL Creation
-
-![Generated URL](public/screenshots/url-generated-success.png)
-
-### MongoDB Database Records
-
-![Database Records](public/screenshots/database-records.png)
-
----
-
 ## 🛠️ Tech Stack
 
 ### Frontend
@@ -191,12 +171,6 @@ http://localhost:3000
 * Click Analytics Dashboard
 * User Authentication
 * Link Expiration Support
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
 
 ---
 
